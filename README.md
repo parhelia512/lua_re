@@ -47,11 +47,27 @@ brew install graphviz libsoup pkg-config grep libsoup@2 plantuml apktool gstream
     yt-dlp gperf z3 libslirp gradle pipx zip libsodium zstd p7zip jtool2 ios-deploy binwalk upx
 ```
 
-`graphviz`与`plantuml`画图必备。`apktool`与`smali`反编译APK要用到。`aria2`与`wget`、`curl`下载软件用到。`go`与`go-ios`是golang与ios开发必备。
+`graphviz`与`plantuml`画图必备。
 
-`yt-dlp`与`youtube-dl`是下载youtube视频的命令行工具。`llvm`与`gcc`编译器套件用于软件开发。`lima`与`colima`采用命令行方法管理虚拟机。
+`apktool`与`smali`反编译APK要用到。
 
-`python`、`node`等是运行大量第三方软件的基础环境。`scrcpy`用于安卓设备投屏。`tesseract`用于OCR识别。`ffmpeg`用于视频编解与转码，这一个就够了。
+`aria2`与`wget`、`curl`下载软件用到。
+
+`go`与`go-ios`是golang与ios开发必备。
+
+`yt-dlp`与`youtube-dl`是下载youtube视频的命令行工具。
+
+`llvm`与`gcc`编译器套件用于软件开发。
+
+`lima`与`colima`采用命令行方法管理虚拟机。
+
+`python`、`node`等是运行大量第三方软件的基础环境。
+
+`scrcpy`用于安卓设备投屏。
+
+`tesseract`用于OCR识别。
+
+`ffmpeg`用于视频编解与转码，这一个就够了。
 
 其中，还有大量的库是这些软件用到的依赖，还有一些是开发`vala`程序用到的，这里不一一介绍了。
 
@@ -191,6 +207,7 @@ alias simlog="tail -f ~/Library/Logs/CoreSimulator/*/system.log"
 ## 常用的GUI工具
 
 首先是常用的IDE，根据个人开发需要安装。```brew install android-studio pycharm clion goland```。
+
 JB系列有免费社区版本的，专业版本收费可以弄开源项目申请免费使用，可以用一年。也可以其它渠道购买或和谐。有条件建议购买，生产力工具真的好用。
 
 ### 通过brew安装
@@ -204,8 +221,89 @@ brew install --cask cmake wireshark charles 1password disk-drill windows-app ado
     ios-app-signer motrix listen1 bit-slicer
 ```
 
-`wireshark`与`charles`、`mitmproxy`是抓包必备的。`1password`是最好用的密码管理软件。`disk-drill`是不错的磁盘管理工具。`windows-app`是微软件出品的3389远程连接软件，免费好用，基本杀死了苹果官方出品的同类收费软件。`displays`是桌面分辨率管理软件。`orbstack`是Docker与虚拟机一体的免费软件，必装。`obs`是开源的录屏与推流软件，最好用，没有之一。`usbimager`、`balenaetcher`、`raspberry-pi-imager`这三个是烧硬盘镜像的工具，我一般用中间这个。`flux`是护眼神器，自动根据时间与时区调整显示器亮度与色温。`vienna`是免费的RSS订阅器，我每天用它来看博客与技术仓库更新。`beyond-compare`与`010-editor`是文件编辑与比较的利器。`visual-studio-code`是每天必用的编辑器，也可以说是IDE了，微软出品的全球开发人员都喜爱的工具。`ghidra`是开源的反编译工具，用于替换商业软件`IDA Pro`，但目前无法动摇其地位。`github`是官方的仓库代码管理工具，也怪好用的。`vnc-viewer`是VNC远程连接工具，有总比没有强。`hiddenbar`是用于管理状态栏的图标们的显示与隐藏，免费的用起来也还可以。`crescendo`是一个内核扩展，用于行为与网络分析，安全分析人员利器。`iina`是开源的最好用的视频播放器，没有之一。`cryptomator`是一个加密工具，管理小秘密必备。`itraffic`看本机进程的流量，抓偸传流量的软件，恶意上传一目了然。`tabby`与`termius`是一个开源免费一个收费的终端工具，也都不错，还有个免费的`iterm2`我也很喜欢。`microsoft-office`是办公套件，微软出品，全球人都在用。`google-chrome`是谷歌的chrome浏览器，也是天天要用的。`xmind`画图工具算是国光了。`localsend`跨平台传文件，我全靠它。`wechat`与`qq`不用说。`telegram`是全球最好用的IM。`bilibili`是二次元的天堂。`showyedge`对于来说必不可少，它把输入法不同的状态在状态栏用不同颜色的一条线显示，让我知道当前用的是什么输入法，不用梗着脖子看右上角状态栏。`angry-ip-scanner`用于扫描本地网络IP与设备信息，设备多的网络环境必不可少。`snip`免费的截图工具，好用。`sentinel`对于苹果用户也是必不可少的，经常下载的第三方工具没签名或者ADHOC签名，提示损坏删除，用这个工具抹抹文件的附加信息就可以了。`battery`是免费的电池管理软件，苹果的电池老金贵了，用它观察准没错。`viz`
-是开源的截图与屏幕二维码扫描工具，比`snip`还好用的样子。`pearcleaner`是开源的软件卸载管理软件。`pdf-expert`是看PDF必备的。`hex-fiend`是免费的十六进制编辑工具。`utm`与`vmware-fusion`都是个人免费使用的虚拟机软件，但我现在用`orbstack`了。`raycast`用于替代官方的聚焦搜索，怪好用的。`ios-app-signer`是IPA签名工具，只是自己买证书，真的贵，苹果真黑。`motrix`是开源的下载软件，我这里就不推荐迅雷了。`listen1`是免费的跨平台音乐播放器的，搜歌与听歌于一体，我就不推荐国内的音乐播放器了。`bit-slicer`是搜内存的工具，懂的都懂。
+`wireshark`与`charles`、`mitmproxy`是抓包必备的。
+
+`1password`是最好用的密码管理软件。
+
+`disk-drill`是不错的磁盘管理工具。
+
+`windows-app`是微软件出品的3389远程连接软件，免费好用，基本杀死了苹果官方出品的同类收费软件。
+
+`displays`是桌面分辨率管理软件。
+
+`orbstack`是Docker与虚拟机一体的免费软件，必装。
+
+`obs`是开源的录屏与推流软件，最好用，没有之一。
+
+`usbimager`、`balenaetcher`、`raspberry-pi-imager`这三个是烧硬盘镜像的工具，我一般用中间这个。
+
+`flux`是护眼神器，自动根据时间与时区调整显示器亮度与色温。
+
+`vienna`是免费的RSS订阅器，我每天用它来看博客与技术仓库更新。
+
+`beyond-compare`与`010-editor`是文件编辑与比较的利器。
+
+`visual-studio-code`是每天必用的编辑器，也可以说是IDE了，微软出品的全球开发人员都喜爱的工具。
+
+`ghidra`是开源的反编译工具，用于替换商业软件`IDA Pro`，但目前无法动摇其地位。
+
+`github`是官方的仓库代码管理工具，也怪好用的。`vnc-viewer`是VNC远程连接工具，有总比没有强。
+
+`hiddenbar`是用于管理状态栏的图标们的显示与隐藏，免费的用起来也还可以。
+
+`crescendo`是一个内核扩展，用于行为与网络分析，安全分析人员利器。
+
+`iina`是开源的最好用的视频播放器，没有之一。
+
+`cryptomator`是一个加密工具，管理小秘密必备。
+
+`itraffic`看本机进程的流量，抓偸传流量的软件，恶意上传一目了然。
+
+`tabby`与`termius`是一个开源免费一个收费的终端工具，也都不错，还有个免费的`iterm2`我也很喜欢。
+
+`microsoft-office`是办公套件，微软出品，全球人都在用。
+
+`google-chrome`是谷歌的chrome浏览器，也是天天要用的。
+
+`xmind`画图工具算是国光了。
+
+`localsend`跨平台传文件，我全靠它。
+
+`wechat`与`qq`不用说。
+
+`telegram`是全球最好用的IM。
+
+`bilibili`是二次元的天堂。
+
+`showyedge`对于来说必不可少，它把输入法不同的状态在状态栏用不同颜色的一条线显示，让我知道当前用的是什么输入法，不用梗着脖子看右上角状态栏。
+
+`angry-ip-scanner`用于扫描本地网络IP与设备信息，设备多的网络环境必不可少。
+
+`snip`免费的截图工具，好用。
+
+`sentinel`对于苹果用户也是必不可少的，经常下载的第三方工具没签名或者ADHOC签名，提示损坏删除，用这个工具抹抹文件的附加信息就可以了。
+
+`battery`是免费的电池管理软件，苹果的电池老金贵了，用它观察准没错。
+
+`viz`是开源的截图与屏幕二维码扫描工具，比`snip`还好用的样子。
+
+`pearcleaner`是开源的软件卸载管理软件。
+
+`pdf-expert`是看PDF必备的。
+
+`hex-fiend`是免费的十六进制编辑工具。
+
+`utm`与`vmware-fusion`都是个人免费使用的虚拟机软件，但我现在用`orbstack`了。
+
+`raycast`用于替代官方的聚焦搜索，怪好用的。
+
+`ios-app-signer`是IPA签名工具，只是自己买证书，真的贵。
+
+`motrix`是开源的下载软件，我这里就不推荐迅雷了。
+
+`listen1`是免费的跨平台音乐播放器的，搜歌与听歌于一体，我就不推荐国内的音乐播放器了。
+
+`bit-slicer`是搜内存的工具，懂的都懂。
 
 ### 配置
 
