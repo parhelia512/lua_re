@@ -218,7 +218,7 @@ brew install --cask cmake wireshark charles 1password disk-drill windows-app ado
     ghidra raspberry-pi-imager github vnc-viewer hiddenbar crescendo iina cryptomator itraffic tabby termius \
     microsoft-office google-chrome xmind localsend 010-editor wechat qq telegram bilibili showyedge angry-ip-scanner \
     iterm2 snip sentinel battery microsoft-auto-update viz pearcleaner pdf-expert hex-fiend vmware-fusion raycast \
-    ios-app-signer motrix listen1 bit-slicer
+    ios-app-signer motrix listen1 bit-slicer clash-verge-rev
 ```
 
 `wireshark`与`charles`、`mitmproxy`是抓包必备的。
@@ -304,6 +304,8 @@ brew install --cask cmake wireshark charles 1password disk-drill windows-app ado
 `listen1`是免费的跨平台音乐播放器的，搜歌与听歌于一体，我就不推荐国内的音乐播放器了。
 
 `bit-slicer`是搜内存的工具，懂的都懂。
+
+`clash-verge-rev`是`clash-for-windows`的继任者。
 
 ### 配置
 
