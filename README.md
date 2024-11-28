@@ -218,7 +218,7 @@ brew install --cask cmake wireshark charles 1password disk-drill windows-app ado
     ghidra raspberry-pi-imager github vnc-viewer hiddenbar crescendo iina cryptomator itraffic tabby termius \
     microsoft-office google-chrome xmind localsend 010-editor wechat qq telegram bilibili showyedge angry-ip-scanner \
     iterm2 snip sentinel battery microsoft-auto-update viz pearcleaner pdf-expert hex-fiend vmware-fusion raycast \
-    ios-app-signer motrix listen1 bit-slicer clash-verge-rev qingg
+    ios-app-signer motrix listen1 bit-slicer clash-verge-rev qingg logseq
 ```
 
 `wireshark`与`charles`、`mitmproxy`是抓包必备的。
@@ -308,6 +308,8 @@ brew install --cask cmake wireshark charles 1password disk-drill windows-app ado
 `clash-verge-rev`是`clash-for-windows`的继任者。
 
 `qingg`清歌是最好用的免费输入法了。
+
+`logseq`是一款开源的笔记管理软件，支持markdown，好用，是typora的平替。
 
 ### 配置
 
