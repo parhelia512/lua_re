@@ -218,7 +218,7 @@ brew install --cask cmake wireshark charles 1password disk-drill windows-app ado
     ghidra raspberry-pi-imager github vnc-viewer hiddenbar crescendo iina cryptomator itraffic tabby termius \
     microsoft-office google-chrome xmind localsend 010-editor wechat qq telegram bilibili showyedge angry-ip-scanner \
     iterm2 snip sentinel battery microsoft-auto-update viz pearcleaner pdf-expert hex-fiend vmware-fusion raycast \
-    ios-app-signer motrix listen1 bit-slicer clash-verge-rev qingg logseq ImageOptim
+    ios-app-signer motrix listen1 bit-slicer clash-verge-rev qingg logseq ImageOptim Snipaste
 ```
 
 `wireshark`与`charles`、`mitmproxy`是抓包必备的。
@@ -312,6 +312,8 @@ brew install --cask cmake wireshark charles 1password disk-drill windows-app ado
 `logseq`是一款开源的笔记管理软件，支持markdown，好用，是typora的平替。
 
 `ImageOptim`是一款开源免费的图片压缩工具。
+
+`Snipaste`是一款跨平台功能强大的截图与贴图工具，提供了个人免费版本与付费版。
 
 ### 配置
 
