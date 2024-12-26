@@ -213,11 +213,11 @@ JB系列有免费社区版本的，专业版本收费可以弄开源项目申请
 ### 通过brew安装
 
 ```bash
-brew install --cask cmake wireshark charles 1password disk-drill windows-app adoptopenjdk displays mitmproxy orbstack obs \
-    flutter oracle-jdk usbimager flux utm balenaetcher fuse-t phantomjs vienna beyond-compare visual-studio-code \
+brew install --cask cmake wireshark charles 1password disk-drill windows-app displays mitmproxy orbstack obs \
+    flutter oracle-jdk usbimager flux utm balenaetcher phantomjs vienna beyond-compare visual-studio-code \
     ghidra raspberry-pi-imager github vnc-viewer hiddenbar crescendo iina cryptomator itraffic tabby termius \
     microsoft-office google-chrome xmind localsend 010-editor wechat qq telegram bilibili showyedge angry-ip-scanner \
-    iterm2 snip sentinel battery microsoft-auto-update viz pearcleaner pdf-expert hex-fiend vmware-fusion raycast \
+    iterm2 sentinel battery microsoft-auto-update viz pearcleaner pdf-expert hex-fiend vmware-fusion raycast \
     ios-app-signer motrix listen1 bit-slicer clash-verge-rev qingg logseq ImageOptim Snipaste licecap
 ```
 
