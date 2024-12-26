@@ -13,7 +13,7 @@ Apple M4 Pro为演示配置的环境，收到机器后，开机然后开始设�
 接下来，安装`HomeBrew`。下载地址需要代理一下，执行如下命令安装：
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://ghp.ci/https://github.com/Homebrew/install/raw/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://github.com/Homebrew/install/raw/master/install.sh)"
 ```
 
 下载软件可能有时候不能成功，执行如下命令设置一下代理。
