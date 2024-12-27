@@ -217,8 +217,10 @@ brew install --cask cmake wireshark charles 1password disk-drill windows-app dis
     flutter oracle-jdk usbimager flux utm balenaetcher phantomjs vienna beyond-compare visual-studio-code \
     ghidra raspberry-pi-imager github vnc-viewer hiddenbar crescendo iina cryptomator itraffic tabby termius \
     microsoft-office google-chrome xmind localsend 010-editor wechat qq telegram bilibili showyedge angry-ip-scanner \
-    iterm2 sentinel battery microsoft-auto-update viz pearcleaner pdf-expert hex-fiend vmware-fusion raycast \
+    iterm2 battery microsoft-auto-update viz pearcleaner pdf-expert hex-fiend vmware-fusion raycast \
     ios-app-signer motrix listen1 bit-slicer clash-verge-rev qingg logseq ImageOptim Snipaste licecap
+
+brew install alienator88/homebrew-cask/sentinel-app
 ```
 
 `wireshark`与`charles`、`mitmproxy`是抓包必备的。
