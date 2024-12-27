@@ -328,109 +328,82 @@ brew install alienator88/homebrew-cask/sentinel-app
 使用下面的命令安装插件。
 
 ```bash
-code --install-extension asabil.meson
+extensions=(
+  "asabil.meson"
+  "bito.bito"
+  "bpfdeploy.bpftrace"
+  "codezombiech.gitignore"
+  "cornell3110sp20.rml-highlighter"
+  "dbaeumer.vscode-eslint"
+  "eriklynd.json-tools"
+  "formulahendry.code-runner"
+  "foxundermoon.shell-format"
+  "genieai.chatgpt-vscode"
+  "github.codespaces"
+  "github.copilot"
+  "github.copilot-chat"
+  "github.github-vscode-theme"
+  "github.remotehub"
+  "github.vscode-github-actions"
+  "github.vscode-pull-request-github"
+  "golang.go"
+  "google.aidl-language"
+  "googlecloudtools.cloudcode"
+  "gruntfuggly.todo-tree"
+  "jebbs.plantuml"
+  "josetr.cmake-language-support-vscode"
+  "jrieken.md-navigate"
+  "mesonbuild.mesonbuild"
+  "ms-azuretools.vscode-docker"
+  "ms-ceintl.vscode-language-pack-zh-hans"
+  "ms-dotnettools.vscode-dotnet-runtime"
+  "ms-mssql.data-workspace-vscode"
+  "ms-mssql.mssql"
+  "ms-mssql.sql-bindings-vscode"
+  "ms-mssql.sql-database-projects-vscode"
+  "ms-python.autopep8"
+  "ms-python.debugpy"
+  "ms-python.isort"
+  "ms-python.python"
+  "ms-python.vscode-pylance"
+  "ms-vscode-remote.remote-containers"
+  "ms-vscode-remote.remote-ssh"
+  "ms-vscode-remote.remote-ssh-edit"
+  "ms-vscode-remote.remote-wsl"
+  "ms-vscode-remote.vscode-remote-extensionpack"
+  "ms-vscode.azure-repos"
+  "ms-vscode.cmake-tools"
+  "ms-vscode.cpptools"
+  "ms-vscode.cpptools-extension-pack"
+  "ms-vscode.cpptools-themes"
+  "ms-vscode.hexeditor"
+  "ms-vscode.makefile-tools"
+  "ms-vscode.powershell"
+  "ms-vscode.remote-explorer"
+  "ms-vscode.remote-repositories"
+  "ms-vscode.remote-server"
+  "ms-vscode.vscode-typescript-next"
+  "osstekz.vala-code"
+  "prince781.vala"
+  "redhat.vscode-commons"
+  "redhat.vscode-xml"
+  "redhat.vscode-yaml"
+  "rogalmic.bash-debug"
+  "twxs.cmake"
+  "vadimcn.vscode-lldb"
+  "vscjava.vscode-maven"
+  "vscode-icons-team.vscode-icons"
+  "xaver.clang-format"
+)
+
+for extension in "${extensions[@]}"; do
+  echo "正在安装扩展: $extension"
+  code --install-extension "$extension"
+done
 ```
 
-下面是我安装好的插件。
+<img width="619" alt="image" src="https://github.com/user-attachments/assets/07a0db37-8898-41d8-942e-fee8a7856d56" />
 
-```bash
-code --list-extensions
-aaron-bond.better-comments
-asabil.meson
-atlassian.atlascode
-bierner.markdown-mermaid
-bito.bito
-bpfdeploy.bpftrace
-bpruitt-goddard.mermaid-markdown-syntax-highlighting
-codeium.codeium
-codezombiech.gitignore
-cornell3110sp20.rml-highlighter
-davidanson.vscode-markdownlint
-dbaeumer.vscode-eslint
-dotjoshjohnson.xml
-eamodio.gitlens
-eriklynd.json-tools
-formulahendry.code-runner
-foxundermoon.shell-format
-genieai.chatgpt-vscode
-github.codespaces
-github.copilot
-github.copilot-chat
-github.github-vscode-theme
-github.remotehub
-github.vscode-github-actions
-github.vscode-pull-request-github
-gitpod.gitpod-desktop
-golang.go
-google.aidl-language
-googlecloudtools.cloudcode
-gruntfuggly.todo-tree
-jebbs.plantuml
-jeff-hykin.better-cpp-syntax
-jock.svg
-josephcz.vscode-markdown-mindmap-preview
-josetr.cmake-language-support-vscode
-jrieken.md-navigate
-llvm-vs-code-extensions.vscode-clangd
-mesonbuild.mesonbuild
-ms-azuretools.vscode-docker
-ms-ceintl.vscode-language-pack-zh-hans
-ms-dotnettools.csharp
-ms-dotnettools.vscode-dotnet-runtime
-ms-kubernetes-tools.vscode-kubernetes-tools
-ms-mssql.data-workspace-vscode
-ms-mssql.mssql
-ms-mssql.sql-bindings-vscode
-ms-mssql.sql-database-projects-vscode
-ms-python.autopep8
-ms-python.debugpy
-ms-python.isort
-ms-python.python
-ms-python.vscode-pylance
-ms-vscode-remote.remote-containers
-ms-vscode-remote.remote-ssh
-ms-vscode-remote.remote-ssh-edit
-ms-vscode-remote.remote-wsl
-ms-vscode-remote.vscode-remote-extensionpack
-ms-vscode.azure-repos
-ms-vscode.cmake-tools
-ms-vscode.cpptools
-ms-vscode.cpptools-extension-pack
-ms-vscode.cpptools-themes
-ms-vscode.hexeditor
-ms-vscode.makefile-tools
-ms-vscode.powershell
-ms-vscode.remote-explorer
-ms-vscode.remote-repositories
-ms-vscode.remote-server
-ms-vscode.vscode-typescript-next
-msjsdiag.vscode-react-native
-nicohlr.pycharm
-osstekz.vala-code
-prince781.vala
-redhat.java
-redhat.vscode-commons
-redhat.vscode-xml
-redhat.vscode-yaml
-rogalmic.bash-debug
-shakram02.bash-beautify
-souche.vscode-mindmap
-twxs.cmake
-vadimcn.vscode-lldb
-visualstudioexptteam.intellicode-api-usage-examples
-visualstudioexptteam.vscodeintellicode
-vscjava.vscode-gradle
-vscjava.vscode-java-debug
-vscjava.vscode-java-dependency
-vscjava.vscode-java-pack
-vscjava.vscode-java-test
-vscjava.vscode-maven
-vscode-icons-team.vscode-icons
-webfreak.debug
-xaver.clang-format
-yzane.markdown-pdf
-zainchen.json
-```
 
 ### orbstack配置
 
