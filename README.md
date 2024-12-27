@@ -319,11 +319,11 @@ brew install alienator88/homebrew-cask/sentinel-app
 
 `licecap`是一款跨平台开源的gif录制工具。
 
-### 配置
+## 配置
 
 一些常用工具还需要额外的配置一下。
 
-#### vscode配置
+### vscode配置
 
 使用下面的命令安装插件。
 
@@ -432,7 +432,7 @@ yzane.markdown-pdf
 zainchen.json
 ```
 
-#### orbstack配置
+### orbstack配置
 
 启动`orbstack`一次。然后命令行配置它。
 
@@ -472,7 +472,7 @@ softwareupdate --install-rosetta --agree-to-license
 orb create --arch amd64 ubuntu:jammy ubuntu64
 ```
 
-#### Chrome设置
+### Chrome设置
 
 主要是扩展程序。访问页面是：https://chromewebstore.google.com/detail/xxx
 xxx为扩展的ID。
@@ -496,11 +496,26 @@ bpoadfkcbjbfhfodiogcnhhhpibjhbnh
 dhdgffkkebhmkfjojejmpbldmpobfkfo
 ```
 
-#### 科学软件
+### iTerm2配置
+
+导入主题：
+
+```
+git clone https://github.com/mbadolato/iTerm2-Color-Schemes --depth 1
+cd iTerm2-Color-Schemes
+tools/import-scheme.sh schemes/*
+```
+
+重启iTerm2，cmd+i，切换到Colors，Color Presets里面选主题，比如Ubuntu主题。
+
+<img width="1360" alt="image" src="https://github.com/user-attachments/assets/6f616495-dbe7-40de-bb6a-ae40f431a883" />
+
+
+### 科学软件
 
 比较常用的有`ClashX Pro`与`clash-for-windows`。后者更好用一些，这里就不展开。
 
-#### 收费软件
+### 收费软件
 
 根据个人使用习惯，还有一些收费的软件是要使用到的。比如`CleanMyMac X`、`Parallels Desktop`、`IDA Pro`、`Typora`、`Beyond Compare`、`paragon-extfs`、`paragon-ntfs`、`010-editor`。它们多可以通过`brew`来安装，`IDA Pro`除外，安装好后可以试用或购买。
 
