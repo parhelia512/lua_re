@@ -508,6 +508,8 @@ dhdgffkkebhmkfjojejmpbldmpobfkfo
 
 这是说一下`Office`，微软对“免费”使用目前查得并不严格，`brew`安装的版本，可以使用网上的`2021 VL license`无限制使用。使用`microsoft-auto-update`可以完美的升级更新，有条件还是建议购买正版，好用省事。
 
+**[Office激活](https://github.com/alsyundawy/Microsoft-Office-For-MacOS)**
+
 ## 参考
 
 https://brew.sh/
