@@ -515,7 +515,10 @@ tools/import-scheme.sh schemes/*
 
 ### 科学软件
 
-比较常用的有`ClashX Pro`与`clash-for-windows`。后者更好用一些，这里就不展开。
+2024比较常用的有`ClashX Pro`与`clash-for-windows`。
+2025使用`clash-verge-rev`的好像更多一些。
+
+这里就不展开安装与配置了。
 
 ### 收费软件
 
