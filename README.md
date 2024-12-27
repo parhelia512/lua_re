@@ -8,7 +8,7 @@ Apple M4 Pro为演示配置的环境，收到机器后，开机然后开始设�
 
 启动`Xcode`，安装好命令行工具。或者终端执行```xcode-select --install```也行。
 
-终端执行```sudo spctl --master-disable```来开启第三方或ad-hoc签名的程序运行。
+终端执行```sudo spctl --master-disable```来开启第三方或ad-hoc签名的程序运行。在macOS15以上，执行这条命令后，过需要在设置->隐私与安全性->安全性中，改为任何来源。
 
 接下来，安装`HomeBrew`。下载地址需要代理一下，执行如下命令安装：
 
