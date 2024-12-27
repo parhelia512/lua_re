@@ -477,6 +477,26 @@ softwareupdate --install-rosetta --agree-to-license
 orb create --arch amd64 ubuntu:jammy ubuntu64
 ```
 
+### UTM配置
+
+安装好程序后，下载Ubuntu镜像。地址可以点击界面的浏览UTM库，然后选择Ubuntu。
+目前最新下载地址是：[https://archive.org/download/ubuntu-20.04-arm64-utm/ubuntu-20.04-arm64-utm.zip](https://archive.org/download/ubuntu-20.04-arm64-utm/ubuntu-20.04-arm64-utm.zip)
+
+下载解压，然后双击Ubuntu22.04.utm，会自动导入。右链编译，改内存8g。
+<img width="805" alt="image" src="https://github.com/user-attachments/assets/dd09d6e5-da8c-4c8f-a85c-bf59bba38a2e" />
+
+改共享，添加主机的下载目录，方便虚拟机与主机共享文件。
+<img width="799" alt="image" src="https://github.com/user-attachments/assets/9e3c817b-8dec-429c-8b6d-2d28b9026d14" />
+
+改网络，虚拟vlan方式，可以添加端口转发，方便ssh连接
+
+<img width="798" alt="image" src="https://github.com/user-attachments/assets/749615f6-f601-4973-a5bb-714b5afc60f5" />
+
+完事后，启动虚拟机，输入用户名与密码：`ubuntu`。打开终端安装`openssh-server`与其它需要用到的软件。
+
+<img width="798" alt="image" src="https://github.com/user-attachments/assets/05ceb9e0-fcdb-4345-98a8-da94ab2d5763" />
+
+
 ### Chrome设置
 
 主要是扩展程序。访问页面是：https://chromewebstore.google.com/detail/xxx
