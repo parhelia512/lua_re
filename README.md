@@ -459,6 +459,11 @@ orb config docker
 }
 ```
 
+Ctrl+O，Ctrl+X保存并退出。下载镜像测试，效果如下：
+
+<img width="1015" alt="image" src="https://github.com/user-attachments/assets/96e5b88b-28cb-4914-94ba-3bad4453cd5b" />
+
+
 安装一个arm64版本的Ubuntu系统日常使用。
 
 ```bash
@@ -506,7 +511,11 @@ cd iTerm2-Color-Schemes
 tools/import-scheme.sh schemes/*
 ```
 
-重启iTerm2，cmd+i，切换到Colors，Color Presets里面选主题，比如Ubuntu主题。
+重启iTerm2，cmd+,打开设置，切换到Profiles->Default->Colors，Color Presets里面选主题，比如Ubuntu主题。
+
+然后执行：```touch ~/.hushlogin```禁止显示最后登陆信息。
+
+打开 Preferences > Profiles > Window。找到 Style 设置，选择No Title Bar，禁止显示标题。
 
 <img width="1360" alt="image" src="https://github.com/user-attachments/assets/6f616495-dbe7-40de-bb6a-ae40f431a883" />
 
