@@ -512,6 +512,16 @@ tools/import-scheme.sh schemes/*
 
 <img width="1360" alt="image" src="https://github.com/user-attachments/assets/6f616495-dbe7-40de-bb6a-ae40f431a883" />
 
+解决中文件乱码：
+
+在.bash_profile或.zshrc中加入：
+
+```
+export LANG="en_US.UTF-8"
+export LC_ALL="en_US.UTF-8"
+export LC_CTYPE="en_US.UTF-8"
+export LC_COLLATE="en_US.UTF-8"
+```
 
 ### 科学软件
 
