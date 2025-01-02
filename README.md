@@ -450,6 +450,32 @@ softwareupdate --install-rosetta --agree-to-license
 orb create --arch amd64 ubuntu:jammy ubuntu64
 ```
 
+安装好这些虚拟机系统后，进去后docker配置使用下面的命令。
+
+```bash
+sudo tee /etc/docker/daemon.json <<EOF
+{
+"registry-mirrors": [
+    "https://docker.m.daocloud.io", 
+    "https://hub.dftianyi.top",
+    "https://noohub.ru", 
+    "https://huecker.io",
+    "https://dockerhub.timeweb.cloud",
+    "https://0c105db5188026850f80c001def654a0.mirror.swr.myhuaweicloud.com",
+    "https://5tqw56kt.mirror.aliyuncs.com",
+    "https://docker.1panel.live",
+    "http://mirrors.ustc.edu.cn/",
+    "http://mirror.azure.cn/",
+    "https://hub.rat.dev/",
+    "https://docker.ckyl.me/",
+    "https://docker.chenby.cn",
+    "https://docker.hpcloud.cloud",
+    "https://docker.m.daocloud.io"
+  ]
+}
+EOF
+```
+
 ### UTM配置
 
 安装好程序后，下载Ubuntu镜像。地址可以点击界面的浏览UTM库，然后选择Ubuntu。
