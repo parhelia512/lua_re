@@ -144,6 +144,8 @@ ollama run deepseek-r1:32b --verbose
 
 <img width="1512" alt="image" src="https://github.com/user-attachments/assets/33d22686-c2e3-4b88-8272-0dd112d996cb" />
 
+<img width="1314" alt="image" src="https://github.com/user-attachments/assets/15eba8e6-0417-4608-99b2-3aed9c361db8" />
+
 
 ## alias与bash函数
 
