@@ -44,7 +44,7 @@ brew install graphviz libsoup pkg-config grep libsoup@2 plantuml apktool gstream
     gdbm libmagic nspr ucl gettext gh unifdef libnghttp2 nvm unzip libnghttp3 vala libnice vala-language-server git \
     glib openjdk vim glib-networking openjdk webp libpcap openjpeg wget gnu-sed libplist openssl@1.1 gnupg \
     libpng openssl@3 x264 gnutls libpsl x265 go gobject-introspection pango xz googletest pcre2 youtube-dl gost perl \
-    yt-dlp gperf z3 libslirp gradle pipx zip libsodium zstd p7zip jtool2 ios-deploy binwalk upx
+    yt-dlp gperf z3 libslirp gradle pipx zip libsodium zstd p7zip jtool2 ios-deploy binwalk upx ollama
 ```
 
 `graphviz`与`plantuml`画图必备。
@@ -68,6 +68,8 @@ brew install graphviz libsoup pkg-config grep libsoup@2 plantuml apktool gstream
 `tesseract`用于OCR识别。
 
 `ffmpeg`用于视频编解与转码，这一个就够了。
+
+`ollama`用来跑AI。
 
 其中，还有大量的库是这些软件用到的依赖，还有一些是开发`vala`程序用到的，这里不一一介绍了。
 
@@ -121,6 +123,27 @@ brew install bito-cli
 ```bash
 bito
 ```
+
+#### deepseek-r1
+
+启动ollama：
+
+```
+ollama start
+```
+
+<img width="1350" alt="image" src="https://github.com/user-attachments/assets/48a83215-aba6-489f-bbc6-d5deadd40997" />
+
+
+新开一个终端，跑：
+
+```
+ollama pull deepseek-r1:32b
+ollama run deepseek-r1:32b --verbose
+```
+
+<img width="1512" alt="image" src="https://github.com/user-attachments/assets/33d22686-c2e3-4b88-8272-0dd112d996cb" />
+
 
 ## alias与bash函数
 
